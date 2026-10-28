@@ -1,0 +1,214 @@
+/* body{
+    background:url(bale.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh;
+    width: 100vh; */
+    /* background-position: center; 
+    min-height: 100vh;
+    margin: 0;
+    aspect-ratio: 5/5;
+    b
+} */
+
+
+body{
+    background-color: #050b14;
+
+}
+
+/* .homepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.menubar{
+    display: flex;
+    flex-direction: ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} */
+
+.homepage {
+    display:grid;
+    grid-template-columns: 400px auto;
+}
+
+
+.homepage div{
+    /* border: 1px solid red; */
+}
+
+
+.homepage .menubar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+
+.homepage .menubar ul{
+    display: flex;
+    /* flex-direction: row; */
+    list-style-type: none;
+    /* gap: 10px;
+    margin: 0;
+    padding: 0; */
+}
+
+.homepage .menubar ul li{
+    display: inline-flex;
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin:1rem;
+
+}
+
+.homepage .menubar ul li a{
+    text-decoration: none;
+    color: #00e5ff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+}
+
+.homepage .menubar ul li a:hover{
+    color: aquamarine;
+    transition: 0.3s;
+}
+
+/* #logo{
+    margin-top:20px;
+    width: 3rem;
+    height: 3rem;
+    /* height: auto; */
+} */
+
+/* h1{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    display:inline
+} */
+
+.homelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 20px;
+    padding: 0px;
+    margin:0px;
+}
+
+.image{
+    margin:0px;
+}
+
+.homepage .homelogo{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-self: center;
+}
+
+.homelogo .text{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     */
+
+}
+
+.homepage .homelogo .image img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+
+
+}
+
+.homepage .text h4{
+    color:#00e5ff;
+    font-size: 2rem;
+    &:hover{
+        color:hsl(76, 69%,80%);
+        cursor: pointer;
+    }
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center end; */
+    /* align-items: ; */
+    padding: 10px;
+    color: #00e5ff;
+    font-size: 1.5rem;
+    background-image: url(bale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    height: 35vh;
+    aspect-ratio: 50/15; 
+    align-self: self-end;  
+    margin-top: 300px;
+
+    
+  
+}
+
+.footer a{
+    text-decoration: none;
+    color: #00e5ff;
+    font-size: 1.5rem;
+}
+
+
+.footer .heading{
+   background: linear-gradient(45deg, #ff3366, #33ccff, #ffcc33, #ff33cc);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+    font-size: 1.5rem;
+}
+
+
+.footer ul li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .homepage {
+        grid-template-columns: 1fr;
+    }
+}
+
+

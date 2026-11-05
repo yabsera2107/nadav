@@ -1,3 +1,13 @@
 .yes{
     background: url('images/hero.jpg');
 }
+font-family: Inter, sans-serif;
+font-size: 29px;
+font-weight: 700;
+line-height: 46px;
+color: #fff;
+
+
+html{
+    font-size: 10px;
+}

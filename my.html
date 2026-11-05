@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yabsera Yilma | Software Engineering Student</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-200 antialiased selection:bg-[#4776E6] selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
+      <a href="#" class="font-bold text-lg tracking-tight text-white hover:text-gray-300 transition-colors">Yabsera Yilma</a>
+      <div class="flex items-center gap-4 md:gap-8 text-sm font-medium text-gray-400">
+        <a href="#home" class="hover:text-[#4776E6] transition-colors">Home</a>
+        <a href="#about" class="hover:text-[#4776E6] transition-colors">About</a>
+        <a href="#skills" class="hover:text-[#4776E6] transition-colors">Skills</a>
+      </div>
+      <a href="#contact" class="hidden sm:inline-block bg-[#4776E6] text-white px-4 py-2 rounded text-sm hover:bg-opacity-90 transition-colors">
+        Contact Me
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="max-w-5xl mx-auto px-6 py-20 md:py-32 flex flex-col-reverse md:flex-row items-center gap-12 md:gap-20">
+    <div class="flex-1 text-center md:text-left">
+      <p class="text-gray-400 mb-3 font-medium">Hi, I'm Yabsera.</p>
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 text-white">
+        Software Engineering Student & Aspiring Developer
+      </h1>
+      <p class="text-gray-400 text-lg leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
+        I'm a Software Engineering student at Jimma University, Ethiopia. I enjoy learning how websites work and turning ideas into simple, useful digital experiences. I'm currently working with HTML and Tailwind CSS while learning JavaScript.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <a href="#skills" class="bg-[#4776E6] text-white px-6 py-3 rounded font-medium hover:bg-opacity-90 transition-colors text-center">
+          View My Skills
+        </a>
+        <a href="#contact" class="border border-gray-700 text-gray-200 px-6 py-3 rounded font-medium hover:bg-gray-800 transition-colors text-center">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+    <div class="w-48 h-48 md:w-72 md:h-72 shrink-0 bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-500 text-sm overflow-hidden">
+      <!-- Replace the span below with an <img> tag when you have a photo -->
+      <span>[Profile Photo]</span>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="border-t border-gray-800 py-20 md:py-28 bg-gray-900">
+    <div class="max-w-3xl mx-auto px-6 text-center md:text-left">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-white">A Little About Me</h2>
+      <div class="text-gray-400 space-y-4 leading-relaxed">
+        <p>
+          I am a 21-year-old student with a genuine curiosity for how digital things are built. Currently, I am studying Software Engineering at Jimma University, where I spend my time understanding the fundamentals of coding and software design.
+        </p>
+        <p>
+          I don't have everything figured out yet, but I love the process of learning. Right now, I am focused on the frontend of web development. My goal is to become a skilled software engineer by staying consistent, practicing daily, and building things that solve simple problems.
+        </p>
+        <p>
+          When I'm not studying for my university classes, you can usually find me reading documentation, testing out new code layouts, or exploring how to make interfaces look clean and natural.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skills -->
+  <section id="skills" class="bg-gray-950 border-t border-gray-800 py-20 md:py-28">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-bold mb-10 text-center text-white">My Skills</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Skill 1 -->
+        <div class="bg-gray-900 border border-gray-800 p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="bg-[#4776E6]/20 text-[#4776E6] text-xs font-semibold px-2 py-1 rounded">Current</span>
+            <h3 class="font-bold text-lg text-white">HTML</h3>
+          </div>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            I use HTML to structure web pages, write semantic code, and ensure content is organized logically for both users and browsers.
+          </p>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="bg-gray-900 border border-gray-800 p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="bg-[#4776E6]/20 text-[#4776E6] text-xs font-semibold px-2 py-1 rounded">Current</span>
+            <h3 class="font-bold text-lg text-white">Tailwind CSS</h3>
+          </div>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            I use Tailwind CSS to style websites, build responsive layouts, and create clean, consistent designs without writing custom CSS from scratch.
+          </p>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="bg-gray-900 border border-gray-800 p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="bg-gray-800 text-gray-400 text-xs font-semibold px-2 py-1 rounded">Learning</span>
+            <h3 class="font-bold text-lg text-white">JavaScript</h3>
+          </div>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            I am currently learning JavaScript to make websites interactive, handle user inputs, and bring static pages to life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="border-t border-gray-800 py-20 md:py-32 bg-gray-900">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 text-white">Let's Connect</h2>
+      <p class="text-gray-400 text-lg leading-relaxed mb-8">
+        I'm always happy to learn, build new things, and connect with people who share an interest in technology. 
+      </p>
+      
+      <a href="mailto:yabserayilma029@gmail.com" class="inline-block bg-[#4776E6] text-white px-8 py-3 rounded font-medium hover:bg-opacity-90 transition-colors mb-10">
+        Email Me
+      </a>
+
+      <div class="flex justify-center items-center gap-8 text-sm font-medium text-gray-400">
+        <a href="mailto:yabserayilma029@gmail.com" class="hover:text-[#4776E6] transition-colors">yabserayilma029@gmail.com</a>
+        <span class="text-gray-700">|</span>
+        <a href="#" class="hover:text-[#4776E6] transition-colors">[GitHub]</a>
+        <span class="text-gray-700">|</span>
+        <a href="#" class="hover:text-[#4776E6] transition-colors">[LinkedIn]</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 py-8 text-center bg-gray-950">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+      <p>Designed and built by Yabsera Yilma.</p>
+      <div class="flex items-center gap-4">
+        <span>&copy; 2026</span>
+        <a href="#" class="hover:text-white font-medium transition-colors">Back to top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
